@@ -21,8 +21,7 @@ class ViewController: UIViewController {
     @IBAction func stepperDidChange(_ sender: UIStepper) {
         numberOfPetsLabel.text = "\(Int(sender.value))"
     }
-   
-
+    
     @IBAction func introduceSelfDidTapped(_ sender: Any) {
         // Let's us chose the title we have selected from the segmented control
         let year = yearSegmentedController.titleForSegment(at: yearSegmentedController.selectedSegmentIndex)
