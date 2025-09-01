@@ -1,20 +1,58 @@
-NAME_OF_YOUR_APP_HERE
-App Description
-TODO:// Add app description
+# LAB0
 
-App Walk-though
-TODO:// Add the URL to your animated app walk-though gif in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif). LICEcap is a great tool for recording and you can simply upload the gif to GitHub and provide the path name in place of URL as shown below.
+**Author:** Haya Alfakieh
 
-TODO:// In the Features section below, add an x between the -[ ] like this - [x] for any features you complete. (☝️ Remove this paragraph after after checking off user stories)
+A simple iOS application demonstrating basic UI elements and user interaction in Swift. This app allows users to enter their information, select their year, adjust preferences, and introduce themselves with a custom alert.
 
-Required Features
-1. App displays an image of a school's logo
-2. App has three textfields for first, last, and school names
-3. App has a segmented control that changes student year
-4. Number of pet matches label is increased/decreased by stepper
-5. Switch makes a statement about wanting more pets or not(true/false)
-6. Introduce yourself button shows alert box with an introduciton and dismiss button
-Optional Features
-1. User can tap a button to change the color of the background view
-3. User can select on additional buttons that provide more info about the user. Example: more textfields, a different alert box, etc.
-4. Any stylistic changes that are not default options (Comment this here)
+---
+
+## App Walkthrough
+
+Below is an animated walkthrough of the app in action:
+
+<img src="Lab0demo.gif" alt="App Walkthrough" width="300" />
+
+---
+
+## Features
+
+### Required Features
+- [ ] App displays an image of a school's logo
+- [ ] App has three textfields for first, last, and school names
+- [ ] App has a segmented control that changes student year
+- [ ] Number of pet matches label is increased/decreased by stepper
+- [ ] Switch makes a statement about wanting more pets or not (true/false)
+- [ ] Introduce yourself button shows alert box with an introduction and dismiss button
+
+### Optional Features
+- [ ] User can tap a button to change the color of the background view
+- [ ] User can select additional buttons that provide more info about the user (e.g., more textfields, a different alert box, etc.)
+- [ ] Any stylistic changes that are not default options (describe them here)
+
+---
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/LAB0.git
+   ```
+2. Open `LAB0.xcodeproj` in Xcode.
+3. Build and run the project on the simulator or a physical device.
+
+---
+
+## Usage
+
+- Launch the app.
+- Enter your first name, last name, and school name.
+- Select your year using the segmented control.
+- Adjust the number of pets using the stepper.
+- Use the switch to indicate if you want more pets.
+- Tap "Introduce Yourself" to see your introduction in an alert.
+
+---
+
+## Contact
+
+For questions or feedback, please contact Haya Alfakieh.
